@@ -40,8 +40,6 @@ function checkLength(input, min, max) {
   
   if(input.value.length > max) {
     showError(input, `${input.id} must be between ${min} and ${max} characters`)
-  } else {
-    showSuccess(input)
   }
 }
 
